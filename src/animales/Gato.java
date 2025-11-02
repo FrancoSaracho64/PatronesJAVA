@@ -1,16 +1,21 @@
 package animales;
 
-import comportamientos.sonido.Maullido;
 import modelo.Animal;
+import comportamientos.alimentacion.AlimentoBalanceado;
+import comportamientos.desplazamiento.Caminar;
+import comportamientos.sonido.Maullido;
 
 public class Gato extends Animal {
-    public Gato (){
-        super();
-        this.setComportamientoDeSonido(new Maullido());
+    public Gato(String nombre) {
+        super(nombre);
+        setSonido(new Maullido());
+        setAlimentacion(new AlimentoBalanceado());
+        setDesplazamiento(new Caminar());
     }
 
     @Override
     public void describir() {
-       System.out.println("Soy un lindo gatito");
+        System.out.println("Soy " + getNombre() + ", un lindo gatito.");
     }
 }
+

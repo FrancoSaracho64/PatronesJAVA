@@ -2,10 +2,9 @@ package comportamientos.sonido;
 
 import interfaz.ComportamientoDeSonido;
 
-public class Maullido implements ComportamientoDeSonido {
-
+public class Gorjear implements ComportamientoDeSonido {
     @Override
     public void hacerSonido() {
-        System.out.println("Miau miau!");
+        System.out.println("Pío pío!");
     }
 }

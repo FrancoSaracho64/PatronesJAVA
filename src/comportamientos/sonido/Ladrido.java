@@ -5,7 +5,7 @@ import interfaz.ComportamientoDeSonido;
 public class Ladrido implements ComportamientoDeSonido {
 
     @Override
-    public void emitirSonido() {
-        System.out.println("¡Guau! ¡Guau!");
+    public void hacerSonido() {
+        System.out.println("¡Guau guau!");
     }
 }
