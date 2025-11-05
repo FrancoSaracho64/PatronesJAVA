@@ -14,7 +14,7 @@ public class Pajaro extends Animal {
     }
     @Override
     public void describir() {
-        System.out.println("Soy " + getNombre() + ", un pájaro que vuela libremente por el cielo.");
+        System.out.println("Soy un pájaro.");
     }
 }
 

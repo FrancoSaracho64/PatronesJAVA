@@ -15,11 +15,7 @@ public class Perro extends Animal {
 
     @Override
     public void describir() {
-        System.out.println("Soy " + getNombre() + ", un perro fiel y amigable. ¡Guau!");
-    }
-
-    public void moverLaCola() {
-        System.out.println(getNombre() + " está moviendo la cola felizmente!");
+        System.out.println("Soy un perro.");
     }
 }
 

@@ -14,7 +14,7 @@ public class Conejo extends Animal {
     }
     @Override
     public void describir() {
-        System.out.println("Soy " + getNombre() + ", un conejo ágil y silencioso.");
+        System.out.println("Soy un conejo.");
     }
 }
 

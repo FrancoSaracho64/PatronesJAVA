@@ -14,7 +14,7 @@ public class Cerdo extends Animal {
     }
     @Override
     public void describir() {
-        System.out.println("Soy " + getNombre() + ", un cerdo doméstico que disfruta revolcarse en el lodo.");
+        System.out.println("Soy un cerdo.");
     }
 }
 

@@ -14,7 +14,7 @@ public class Leon extends Animal {
     }
     @Override
     public void describir() {
-        System.out.println("Soy " + getNombre() + ", el rey de la selva. Soy un animal salvaje y poderoso.");
+        System.out.println("Soy un león.");
     }
 }
 

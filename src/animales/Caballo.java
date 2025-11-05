@@ -14,7 +14,7 @@ public class Caballo extends Animal {
     }
     @Override
     public void describir() {
-        System.out.println("Soy " + getNombre() + ", un caballo veloz y elegante.");
+        System.out.println("Soy un caballo.");
     }
 }
 

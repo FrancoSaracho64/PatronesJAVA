@@ -14,7 +14,7 @@ public class Oveja extends Animal {
     }
     @Override
     public void describir() {
-        System.out.println("Soy " + getNombre() + ", una oveja que pasta tranquila en el campo.");
+        System.out.println("Soy una oveja.");
     }
 }
 

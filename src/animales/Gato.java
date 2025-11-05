@@ -15,7 +15,7 @@ public class Gato extends Animal {
 
     @Override
     public void describir() {
-        System.out.println("Soy " + getNombre() + ", un lindo gatito.");
+        System.out.println("Soy un lindo gatito.");
     }
 }
 

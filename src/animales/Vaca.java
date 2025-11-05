@@ -14,7 +14,7 @@ public class Vaca extends Animal {
     }
     @Override
     public void describir() {
-        System.out.println("Soy " + getNombre() + ", una vaca que disfruta del pasto fresco.");
+        System.out.println("Soy una vaca.");
     }
 }
 

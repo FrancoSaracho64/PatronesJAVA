@@ -14,7 +14,7 @@ public class Serpiente extends Animal {
     }
     @Override
     public void describir() {
-        System.out.println("Soy " + getNombre() + ", una serpiente que se desliza silenciosamente.");
+        System.out.println("Soy una serpiente.");
     }
 }
 
